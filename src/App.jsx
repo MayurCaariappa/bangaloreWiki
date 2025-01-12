@@ -1,17 +1,18 @@
-import { useState } from 'react';
 import './App.css';
+import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import Food from '../components/Food';
 import Cafe from '../components/Cafe';
 import Date from '../components/Date';
 import Party from '../components/Party';
 import Outskirt from '../components/Outskirt';
+import Footer from '../components/Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>
+      <Navbar />
       <Header />
       
       <div className="category-container">
@@ -21,6 +22,8 @@ function App() {
         <Party />
         <Outskirt/>
       </div>
+      
+      <Footer />
     </div>
   )
 }

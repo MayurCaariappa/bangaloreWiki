@@ -14,7 +14,7 @@ const Cafe = () => {
 
     return (
         <div className="container">
-            <div className="containerHeader">
+            <div className="containernavbar">
                 <b>🍔 Cafe</b>
             </div>
             <ul>

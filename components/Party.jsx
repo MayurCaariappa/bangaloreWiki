@@ -9,7 +9,7 @@ const Party = () => {
 
     return (
         <div className="container">
-            <div className="containerHeader">
+            <div className="containernavbar">
                 <b>🎉 Party</b>
             </div>
             <ul>

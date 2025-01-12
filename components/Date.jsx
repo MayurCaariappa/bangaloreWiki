@@ -13,7 +13,7 @@ const Date = () => {
 
     return (
         <div className="container">
-            <div className="containerHeader">
+            <div className="containernavbar">
                 <b>🥨 Date</b>
             </div>
             <ul>

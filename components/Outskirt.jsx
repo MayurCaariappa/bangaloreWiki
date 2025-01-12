@@ -9,7 +9,7 @@ const Outskirt = () => {
 
     return (
         <div className="container">
-            <div className="containerHeader">
+            <div className="containernavbar">
                 <b>⛺ Outskirt</b>
             </div>
             <ul>
