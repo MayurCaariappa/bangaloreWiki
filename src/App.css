@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+}
+
+.header-icon {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+  }
+.category-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.container {
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    margin: 10px;
+    max-width: 100%;
+}
+
+.item {
+    margin: 0.5rem 0;
+}
+
+.link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.containerHeader {
+    border-bottom: 1px solid #e5e7eb;
+    font-family: Inter, sans-serif;
+    justify-content: left;
+    min-height: 1.1rem;
+    padding: 10px;
+}
