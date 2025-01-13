@@ -2,12 +2,16 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <div>
-            <navbar className="navbar">
-            <img className="navbar-icon" src="/Bangalore-icon.png"></img>
+        <nav className="navbar">
+            <a href="/" className="navbarLink">
+                <img 
+                    className="navbar-icon" 
+                    src="/Bangalore-icon.png" 
+                    alt="Bangalore Wiki Icon"
+                />
                 <h2>bangalore.wiki</h2>
-            </navbar>
-        </div>
+            </a>
+        </nav>
     );
 };
 
