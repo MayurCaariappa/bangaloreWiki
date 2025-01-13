@@ -2,9 +2,8 @@ import React from "react";
 
 const Outskirt = () => {
     const outskirtPlaces = [
-        { name: "", link: "" },
-        { name: "", link: "" },
-        { name: "", link: "" },
+        { name: "Nandi Hills", link: "https://maps.app.goo.gl/nWXAxHVWhJSFe2L57" },
+        { name: "Art Of Coorg - Drive in Cafe", link: "https://maps.app.goo.gl/hVNjPc7xU63qkFrFA" },
     ]
 
     return (
