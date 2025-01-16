@@ -7,7 +7,7 @@ const Navbar = () => {
                 <img 
                     className="navbar-icon" 
                     src="/Bangalore-icon.png" 
-                    alt="Bangalore Wiki Icon"
+                    alt="bangalore.wiki Icon"
                 />
                 <h2>bangalore.wiki</h2>
             </a>
